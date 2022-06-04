@@ -1,6 +1,6 @@
 import * as rls from 'readline-sync';
 
-let Length : number= rls.questionInt('Ingresar la cantidad de elementos para el arreglo: ');
+let length : number= rls.questionInt("Ingresar la cantidad de elementos para el arreglo: ");
 let arreglo1: number[] = new Array(length);
 let numPos:number = 0;
 let numNeg: number = 0;
